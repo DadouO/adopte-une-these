@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {{ encore_entry_link_tags('globalStyle') }}
-        {% block stylesheets %}{% endblock %}
+        {# {{ encore_entry_link_tags('globalStyle') }} #}
+        {% block stylesheets %}{{ encore_entry_link_tags('globalStyle') }}{% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
-        {{ encore_entry_script_tags('globalJS') }}
-        {% block javascripts %}{% endblock %}
+        {# {{ encore_entry_script_tags('globalJS') }} #}
+        {% block javascripts %}{{ encore_entry_script_tags('globalJS') }}{% endblock %}
     </body>
 </html>
