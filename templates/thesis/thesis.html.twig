@@ -1,9 +1,27 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ThesisController!{% endblock %}
+{% block title %}Liste des thèses en tendance {% endblock %}
 
 {% block body %}
-<style>
+
+{# <h1> Liste des thèses en tendance <h1> #}
+
+{{include('thesis/thesisblock.html.twig',{title:'Obélix pouvait-il s’intoxiquer?
+ ',phrase:'Ou les maladies transmissibles du sanglier à l’homme',
+ description:'Les associations de chasseurs multiplient les préventions pour alerter sur les dangers de la trichinose',
+ adresse:'lelab@gmail.com'})}}
+
+ {{include('thesis/thesisblock.html.twig',{title:'De l’impact des rayons cosmiques sur le suicide des cafards néozélandais 
+ ',phrase:'Résistance aux radiations des insectes',
+ description:'Les cafards démontrent une grande résistance aux radiations, à étudier notamment dans le cadre
+ du nucléaire',
+ adresse:'lelabnz@gmail.com'})}}
+
+  {{include('thesis/thesisblock.html.twig',{title:'Conflits magico-chamaniques ouverts entre les démons guatémaltèques et les séraphins avant la christianisation des Népalais du Sud  
+ ',phrase:"Etude de l'impact de la figure du sachant religieux",
+ description:"Lae conflits des figures de l'hégémonie de l'autorité religieuse avant la christanisation",
+ adresse:'lelabtheo@gmail.com'})}}
+{# <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
@@ -16,5 +34,5 @@
         <li>Your controller at <code><a href="{{ '/home/e20180008918/responsiveskeleton-master/src/Controller/ThesisController.php'|file_link(0) }}">src/Controller/ThesisController.php</a></code></li>
         <li>Your template at <code><a href="{{ '/home/e20180008918/responsiveskeleton-master/templates/thesis/index.html.twig'|file_link(0) }}">templates/thesis/index.html.twig</a></code></li>
     </ul>
-</div>
+</div> #}
 {% endblock %}

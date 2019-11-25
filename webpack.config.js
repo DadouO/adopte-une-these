@@ -25,6 +25,7 @@ Encore
      */
     .addEntry('globalJS', './assets/global/js/app.js')
     .addStyleEntry('globalStyle', './assets/global/scss/import.scss')
+    .addStyleEntry('thesisStyle', './assets/composant/thesis/import.scss')
     //.addEntry('page1', './assets/js/page1.js')
     //.addEntry('page2', './assets/js/page2.js')
 

@@ -1,0 +1,66 @@
+
+*** These modified files were found in JOE when it aborted on Mon Nov 18 12:49:58 2019
+*** JOE was aborted because the terminal closed
+
+*** Fichier '/home/e20180008918/responsiveskeleton-master/.git/MERGE_MSG'
+Merge branch 'master' of github.com:DadouO/adopte-une-these
+
+# Veuillez entrer un message de validation pour expliquer en quoi cette fusion est
+# nécessaire, surtout si cela fusionne une branche amont mise à jour dans une branche de sujet.
+#
+# Les lignes commençant par '#' seront ignorées, et un message vide
+# abandonne la validation.
+
+*** Fichier '(Sans nom)'
+/home/e20180008918/symfobacasable/.git/COMMIT_EDITMSG
+/home/e20180008918/responsiveskeleton-master/.git/MERGE_MSG
+
+*** Fichier '* Startup Log *'
+Traitement de '/etc/joe/editorrc'...Traitement de '/etc/joe/ftyperc'...Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Mon Nov 18 12:52:12 2019
+*** JOE was aborted because the terminal closed
+
+*** Fichier '/home/e20180008918/responsiveskeleton-master/.git/COMMIT_EDITMSG'
+Merge branch 'master' of github.com:DadouO/adopte-une-these
+fusion
+
+# Veuillez entrer un message de validation pour expliquer en quoi cette fusion est
+# nécessaire, surtout si cela fusionne une branche amont mise à jour dans une branche de sujet.
+#
+# Les lignes commençant par '#' seront ignorées, et un message vide
+# abandonne la validation.
+#
+# Il semble que vous validiez une fusion.
+# Si ce n'est pas le cas, veuillez supprimer le fichier
+#	.git/MERGE_HEAD
+# et essayez à nouveau.
+
+
+# Veuillez saisir le message de validation pour vos modifications. Les lignes
+# commençant par '#' seront ignorées, et un message vide abandonne la validation.
+#
+# Validateur : darlene.bechtel@etu.umontpellier.fr <darlene.bechtel@etu.umontpellier.fr@g12.fdsetu.infra.umontpellier.fr>
+#
+# Sur la branche master
+# Votre branche et 'origin/master' ont divergé,
+# et ont 2 et 2 commits différents chacune respectivement.
+#   (utilisez "git pull" pour fusionner la branche distante dans la vôtre)
+#
+# Tous les conflits sont réglés mais la fusion n'est pas terminée.
+#
+# Modifications qui seront validées :
+#	modifié :         README.md
+#
+# Fichiers non suivis:
+#	DEADJOE
+#
+
+*** Fichier '(Sans nom)'
+/home/e20180008918/symfobacasable/.git/COMMIT_EDITMSG
+/home/e20180008918/responsiveskeleton-master/.git/COMMIT_EDITMSG
+
+*** Fichier '* Startup Log *'
+Traitement de '/etc/joe/editorrc'...Traitement de '/etc/joe/ftyperc'...Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
