@@ -2,7 +2,6 @@
 // comme le style définit ici est chargé après le fichier de style tablet/global.scss, alors
 // les règles dans ce fichier (desktop/global.scss) surcharge celles définit dans tablet/global.scss
 
-@media(min-width:900px){
 body{
   // affiche le bandeau du profiler de symfony en vert sombre
   // je surcharge la règle '.sf-toolbarreset' définit dans 'tablet/global.scss'
@@ -11,4 +10,9 @@ body{
   }
 
 }
+
+h1{
+  text-align: center;
 }
+
+
