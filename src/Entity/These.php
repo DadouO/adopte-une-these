@@ -36,6 +36,12 @@ class These
      */
     private $adresse;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\EcoleDoc", inversedBy="theses")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $ecoleDoc;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -85,6 +91,18 @@ class These
     public function setAdresse(string $adresse): self
     {
         $this->adresse = $adresse;
+
+        return $this;
+    }
+
+    public function getEcoleDoc(): ?EcoleDoc
+    {
+        return $this->ecoleDoc;
+    }
+
+    public function setEcoleDoc(?EcoleDoc $ecoleDoc): self
+    {
+        $this->ecoleDoc = $ecoleDoc;
 
         return $this;
     }

@@ -13,8 +13,13 @@
 
 {% for t in these %}
     {{include('thesis/thesisblock.html.twig',{title:t.title,phrase:t.phrase,
-    description:t.description,adresse:t.adresse})}}
+    description:t.description,adresse:t.adresse,ecoleDocl:t.ecoleDoc.lien,ecoleDocn:t.ecoleDoc.nom})}}
 {% endfor %}
+
+{# {% for t in these %}
+    {{include('thesis/thesisblock.html.twig',{title:t.title,phrase:t.phrase,
+    description:t.description,adresse:t.adresse,ecoleDoc:t.ecoleDoc.nom})}}
+{% endfor %} #}
 {# {{include('thesis/thesisblock.html.twig',{title:'Obélix pouvait-il s’intoxiquer?
  ',phrase:'Ou les maladies transmissibles du sanglier à l’homme',
  description:'Les associations de chasseurs multiplient les préventions pour alerter sur les dangers de la trichinose',
