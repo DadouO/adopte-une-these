@@ -10,7 +10,12 @@
 <h1> Liste des thèses en tendance </h1>
 
 <div>
-{{include('thesis/thesisblock.html.twig',{title:'Obélix pouvait-il s’intoxiquer?
+
+{% for t in these %}
+    {{include('thesis/thesisblock.html.twig',{title:t.title,phrase:t.phrase,
+    description:t.description,adresse:t.adresse})}}
+{% endfor %}
+{# {{include('thesis/thesisblock.html.twig',{title:'Obélix pouvait-il s’intoxiquer?
  ',phrase:'Ou les maladies transmissibles du sanglier à l’homme',
  description:'Les associations de chasseurs multiplient les préventions pour alerter sur les dangers de la trichinose',
  adresse:'lelab@gmail.com'})}}
@@ -24,7 +29,7 @@
   {{include('thesis/thesisblock.html.twig',{title:'Conflits magico-chamaniques ouverts entre les démons guatémaltèques et les séraphins avant la christianisation des Népalais du Sud  
  ',phrase:"Etude de l'impact de la figure du sachant religieux",
  description:"Les conflits des figures de l'hégémonie de l'autorité religieuse avant la christanisation",
- adresse:'lelabtheo@gmail.com'})}}
+ adresse:'lelabtheo@gmail.com'})}} #}
 {# <style>
     .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
