@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello EcoledocController!{% endblock %}
+
+{% block body %}
+
+<div class="example-wrapper">
+{% for e in ecoles %}
+    <h1>{{e.nom}}</h1>
+    <a href={{e.lien}}>{{e.lien}}</a>
+    Nombre de thèses poposées:{{e.theses|length}}
+{% endfor %}
+</div>
+{% endblock %}

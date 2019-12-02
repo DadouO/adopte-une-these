@@ -64,6 +64,12 @@ class ThesisController extends AbstractController
             $entityManager->flush();
         }
 
+/*             $e4 = new EcoleDoc();
+            $e4->setNom('INFORMATION, STRUCTURES ET SYSTEMES (I2S)');
+            $e4->setLien('http://www.edi2s.univ-montp2.fr/');
+            $entityManager->persist($e4);
+
+            $entityManager->flush(); */
         return $this->render('thesis/thesis.html.twig', [
             'these' => $theseRepo->findAll(),
         ]);

@@ -29,7 +29,8 @@ class EcoleDoc
     private $lien;
 
     /**
-     * @ORM\OneToMany(targetEntity="App\Entity\These", mappedBy="ecoleDoc")
+     * @ORM\OneToMany(targetEntity="App\Entity\These", mappedBy="ecoleDoc" )
+     *@ORM\JoinColumn(nullable=true)
      */
     private $theses;
 
